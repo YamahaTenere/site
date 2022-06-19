@@ -1,0 +1,75 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+
+}
+
+/*html {
+	font-size: 16px;
+	
+}*/
+
+body {
+	line-height: 1;
+	/* по умолчанию ~110% */
+}
+
+.wrapper {
+	min-height: 100%;
+
+	overflow: hidden;
+	/*от возможных проблем горизонтального скрола (напр отриц маржин)*/
+}
+
+a:focus,
+a:active {
+	outline: none
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+	font-size: inherit
+}
+
+button {
+	cursor: pointer
+}
+
+a,
+a:visited,
+a:hover {
+	text-decoration: none
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit
+}
+
+
+img {
+	vertical-align: top;
+	/* убирает пробел внизу картинки */
+}
+
+li {
+	list-style: none;
+}
